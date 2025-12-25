@@ -66,7 +66,7 @@ export default function App() {
       <div className="min-h-screen bg-gray-50">
         <div className="fixed top-0 left-0 right-0 bg-gray-900 text-white p-4 z-50 shadow-lg">
           <div className="flex items-center justify-between">
-            <h1 className="text-xl font-bold">Ranjesh Thakur</h1>
+            <h1 className="text-xl font-bold">Sumit Ray</h1>
             <button
               onClick={() => setShowMobileMenu(!showMobileMenu)}
               className="text-2xl"
@@ -98,11 +98,10 @@ export default function App() {
                   const element = document.getElementById(sections[index]);
                   element?.scrollIntoView({ behavior: "smooth" });
                 }}
-                className={`w-3 h-3 p-0 rounded-full transition-all duration-300 ${
-                  activeIndex === index
+                className={`w-3 h-3 p-0 rounded-full transition-all duration-300 ${activeIndex === index
                     ? "bg-blue-600 scale-150"
                     : "bg-gray-400 scale-100"
-                }`}
+                  }`}
                 aria-label={`Go to ${sections[index]} section`}
               />
             ))}
@@ -147,10 +146,9 @@ export default function App() {
                 aria-label={`Go to ${section} section`}
                 className={`
                   rounded-full transition-all duration-300 top-100
-                  ${
-                    activeIndex === index
-                      ? "bg-blue-600 w-5 h-5 scale-125 shadow-lg"
-                      : "bg-gray-400 w-4 h-4 scale-100 hover:bg-gray-500"
+                  ${activeIndex === index
+                    ? "bg-blue-600 w-5 h-5 scale-125 shadow-lg"
+                    : "bg-gray-400 w-4 h-4 scale-100 hover:bg-gray-500"
                   }
                 `}
               />
