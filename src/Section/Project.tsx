@@ -5,26 +5,20 @@ export default function Project() {
 
   const projects = [
     {
-      title: "Online Bidding Application",
-      description:
-        "Full-stack real-time auction system with role-based access, admin approval workflow, and live bidding using WebSockets.",
-      tech: "React, Django, WebSockets, JWT",
-    },
-    ,
-    {
-      title: "Forex Chart Analyzer",
-      description:
-        "AI-powered forex chart prediction tool using machine learning algorithms.",
-      tech: "Python, TensorFlow, React",
-      link: "/projects/forex-analyzer",
-    },
-    {
       title: "E-Commerce Platform",
       description:
         "Full-featured online store with payment integration and inventory management.",
       tech: "Next.js, Stripe, PostgreSQL",
       link: "/projects/ecommerce",
     },
+
+    {
+      title: "Online Bidding Application",
+      description:
+        "Full-stack real-time auction system with role-based access, admin approval workflow, and live bidding using WebSockets.",
+      tech: "React, Django, WebSockets, JWT",
+    },
+    
     {
       title: "Smart Air Monitoring System",
       description:
@@ -32,7 +26,6 @@ export default function Project() {
       tech: "IoT, Python, Sensors, MQTT, Data Visualization",
       link: "/projects/smart-air-monitoring",
     },
-    ,
   ];
 
   return (
@@ -75,7 +68,7 @@ export default function Project() {
                   onClick={() => navigate(project.link)}
                   className="opacity-0 group-hover:opacity-100 transition-all duration-300 bg-blue-600 text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-blue-700"
                 >
-                  View More →
+                  View More
                 </button>
               </div>
             </div>

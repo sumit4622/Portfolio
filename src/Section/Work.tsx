@@ -8,20 +8,20 @@ export default function Work() {
   const experiences = [
     {
       image: norvic,
-      title: "Software Engineer",
-      company: "ABC Company",
+      title: "IT Intern",
+      company: "Norvic International Hospital",
       period: " Aug 2023 - May 2024",
       description:
-        "Developed web apps, optimised APIs, built full-stack features using React, Node.js, and PostgreSQL. Led a team of 3 developers.",
+        "Worked as an IT Intern supporting system administration and IT support tasks, including troubleshooting hardware/software issues, maintaining systems and networks, assisting users, and supporting basic server and data management in a hospital environment.",
       link: "/work/abc-company",
     },
     {
       image: Anweshan,
-      title: "Junior Developer",
-      company: "XYZ Startup",
+      title: "Web Developer Intern",
+      company: "Anweshan",
       period: "Jan 2025 - May 2025",
       description:
-        "Built responsive web applications and integrated third-party APIs. Improved application performance by 40%.",
+        "Worked as a Web Developer Intern using React for frontend development, Git and GitHub for version control, and Firebase for backend services, authentication, and data management.",
       link: "/work/xyz-startup",
     },
   ];
@@ -74,7 +74,7 @@ export default function Work() {
                 onClick={() => navigate(exp.link)}
                 className="opacity-0 group-hover:opacity-100 transition-all duration-300 bg-blue-600 text-white px-6 py-2 rounded-full text-sm font-medium hover:bg-blue-700"
               >
-                View More →
+                View More
               </button>
             </div>
           </div>
