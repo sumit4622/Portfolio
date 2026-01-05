@@ -64,7 +64,7 @@ export default function Project() {
 
                 {/* View More Button */}
                 <button
-                  onClick={() => navigate(project.link)}
+                  onClick={() => (project.link)}
                   className="opacity-0 group-hover:opacity-100 transition-all duration-300 bg-blue-600 text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-blue-700"
                 >
                   View More
