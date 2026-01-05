@@ -43,7 +43,6 @@ export default function Project() {
             key={index}
             className="relative group bg-white shadow-lg p-8 rounded-2xl border border-gray-100 transition-all duration-300 hover:shadow-2xl"
           >
-            {/* Dark overlay */}
             <div className="absolute inset-0 bg-gray-900 opacity-0 group-hover:opacity-10 rounded-2xl transition-opacity duration-300"></div>
 
             <div className="relative z-10">
