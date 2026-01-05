@@ -71,7 +71,7 @@ export default function Work() {
 
               
               <button
-                onClick={() => navigate(exp.link)}
+                onClick={() => (exp.link)}
                 className="opacity-0 group-hover:opacity-100 transition-all duration-300 bg-blue-600 text-white px-6 py-2 rounded-full text-sm font-medium hover:bg-blue-700"
               >
                 View More
